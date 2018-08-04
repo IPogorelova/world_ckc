@@ -1,0 +1,273 @@
+BODY {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #40424a;
+}
+
+#wrapper {
+    max-width: 1440px;
+}
+
+#logo {
+    position: relative;
+    margin: -35px 0 -16px 135px;
+    width: 108px;
+    height: 96px;
+    float: left;
+    z-index: 2;
+}
+
+nav {
+    margin-top: 65px;
+    margin-left: 640px;
+}
+
+.text {
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a {
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 27px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+#container {
+    clear: both;
+    margin-bottom: -341px;
+    width: 100%;
+    min-height: 825px;
+    min-width: 1440px;
+    overflow: hidden;
+}
+
+#map {
+    position: relative;
+    padding-left: 476px;
+    width: 964px;
+    height: 800px;
+    z-index: -1;
+}
+
+#top_gradient {
+    position: absolute;
+    top: 110px;
+    height: 84px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(64, 66, 74, 0.23), #40424a);
+    z-index: 1;
+}
+
+#number {
+    position: relative;
+    top: -648px;
+    left: 140px;
+    padding: 0;
+    width: 500px;
+    height: 219px;
+    z-index: 2;
+}
+
+#error_text {
+    position: relative;
+    top: -618px;
+    left: 140px;
+    width: 524px;
+    height: 35px;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 0.8;
+    letter-spacing: 0.3px;
+}
+
+#button {
+    position: relative;
+    top: -535px;
+    right: 370px;
+    width: 231px;
+    height: 47px;
+    padding: 10px 25px 12px 25px;
+    border-radius: 23.5px;
+    background-color: #e23548;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+}
+
+.circle::before {
+    display: block;
+    content: ' ';
+    background-color: #e23548;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.circle {
+    position: relative;
+    float: right;
+    border: 1px solid #e23548;
+    background-color: transparent;
+    padding: 11px;
+    border-radius: 50%;
+}
+
+#spb_dot {
+    bottom: 897px;
+    right: 481px;
+}
+
+.small_circle {
+    position: relative;
+    float: right;
+    display: block;
+    width: 10px;
+    height: 10px;
+    content: ' ';
+    background-color: #e23548;
+    border-radius: 50%;
+}
+
+#spb_topleft {
+    bottom: 875px;
+    right: 496px;
+}
+
+#spb_bottomleft {
+    bottom: 848px;
+    right: 478px;
+}
+
+#spb_topright {
+    bottom: 908px;
+    right: 389px;
+}
+
+#spb_bottomright {
+    bottom: 835px;
+    right: 394px;
+}
+
+.text.city_name {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    color: #e23548;
+}
+
+#spb_text {
+    bottom: 828px;
+    left: 97px;
+}
+
+#moskow_dot {
+    bottom: 541px;
+    right: 486px;
+}
+
+#moscow_text {
+    bottom: 477px;
+    right: 142px;
+}
+
+#bottom_gradient {
+    position: relative;
+    bottom: 382px;
+    height: 132px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(64, 66, 74, 0.23), #40424a 98%);
+}
+
+#line_bottom {
+    margin-right: 143px;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 352px;
+    left: 143px;
+    height: 1px;
+    width: 1167px;
+    background-color: #e23548;
+}
+
+FOOTER {
+    position: absolute;
+    margin-top: 0;
+    min-width: 1440px;
+    height: 241px;
+    padding: 20px 141px 100px;
+
+}
+
+.footer_text {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #7a7e7c;
+}
+
+#contacts {
+    position: relative;
+    float: left;
+    width: 348px;
+    height: 190px;
+    margin-right: 100px;
+}
+
+#address {
+    margin-bottom: 91px;
+}
+
+.nav {
+    position: relative;
+    float: left;
+    display: block;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-left: 0;
+    width: 225px;
+    height: 190px;
+    list-style: none;
+}
+
+#copyright {
+    position: relative;
+    float: left;
+    margin-right: 150px;
+    padding-top: 167px;
+    width: 193px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.11;
+    letter-spacing: 0.5px;
+}
+
+#social {
+    position: relative;
+    padding-top: 30px;
+    width: 47px;
+    height: 201px;
+    overflow: hidden;
+}
+
+#social img {
+    margin-bottom: 20px;
+}
