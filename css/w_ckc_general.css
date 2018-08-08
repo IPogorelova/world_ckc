@@ -102,13 +102,18 @@ nav a:hover {
     color: #e23548;
 }
 
+#transparent_button {
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #d2d2d7;
+}
+
+
 FOOTER {
     position: absolute;
     margin-top: 0;
     min-width: 1440px;
     height: 241px;
     padding: 20px 141px 100px;
-
 }
 
 #line_bottom {

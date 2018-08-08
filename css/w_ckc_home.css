@@ -97,22 +97,65 @@
 .projects {
     position: relative;
     bottom: 152px;
-    margin: 155px auto 85px 188px;
     min-width: 1065px;
     min-height: 490px;
+    margin: 155px auto 102px 188px;
 }
 
 #proj_names {
+    float: left;
+    position: absolute;
     width: 350px;
     height: 490px;
     padding-right: 50px;
     border-right: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+#proj_names h3 {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.17;
+    letter-spacing: 0.6px;
 }
 
 #proj_top_gradient {
-    position: relative;
+    float: left;
+    position: absolute;
+    top: 0;
     bottom: 490px;
     width: 400px;
     height: 122px;
     background-image: linear-gradient(to top, rgba(64, 66, 74, 0.23), #40424a);
+}
+
+#proj_descriptions {
+    float: left;
+    position: relative;
+    bottom: 81px;
+    margin-left: 401px;
+    padding-left: 50px;
+    width: 586px;
+    height: 490px;
+}
+
+#proj_bottom_gradient {
+    position: relative;
+    top: 293px;
+    width: 400px;
+    height: 197px;
+    background-image: linear-gradient(to bottom, rgba(64, 66, 74, 0.23), #40424a);
+}
+
+#transparent_button {
+    position: relative;
+    top: 455px;
+    left: 10px;
+    width: 218px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
 }
