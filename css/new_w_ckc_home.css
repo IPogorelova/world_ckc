@@ -82,10 +82,6 @@ nav a:hover {
     float: left;
     position: absolute;
     margin: 7% auto;
-    /*top:   -618px;
-    left: 140px;
-    width: 629px;
-    height: 300px;*/
     font-size: 50px;
     font-weight: bold;
     line-height: 1.07;
@@ -207,7 +203,7 @@ nav a:hover {
     min-width: 100%;
 }
 
-#proj_names {
+.proj_names {
     float: left;
     width: 39%;
     height: 50%;
@@ -217,7 +213,15 @@ nav a:hover {
     overflow: hidden;
 }
 
-#proj_names h3 {
+#ckc {
+    padding-top: 0;
+}
+
+#video {
+    padding-bottom: 0;
+}
+
+.proj_names h3 {
     margin: 0;
     padding: 4.5% 7%;
     font-size: 30px;
@@ -226,7 +230,7 @@ nav a:hover {
     letter-spacing: 0.6px;
 }
 
-#proj_names h3:hover {
+.proj_names h3:hover {
     font-size: 30px;
     font-weight: bold;
     width: 100%;
@@ -265,6 +269,10 @@ nav a:hover {
     letter-spacing: 0.5px;
 }
 
+.text1440 {
+    display: none;
+}
+
 #proj_descriptions ul {
     font-size: 18px;
     font-weight: 300;
@@ -300,6 +308,10 @@ nav a:hover {
     float: left;
     margin-left: -5.5%;
     margin-right: 5.5%;
+}
+
+#about_img1440 {
+    display: none;
 }
 
 .about_text {
