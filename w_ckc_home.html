@@ -25,7 +25,7 @@
     </header>
     <div id="container">
         <h1 class="text">Проектирование<br>и монтаж<br>слаботочных<br>систем</h1>
-        <a class="text" id="red_button" href="#">Оставить заявку</a>
+        <a class="text red_button" href="#">Оставить заявку</a>
         <div id="top_gradient"></div>
         <div id="map">
             <img src="pictures/w_ckc_404/map.png">
@@ -51,27 +51,103 @@
                 <h3 class="text">Видеонаблюдение</h3>
             </div>
             <div id="proj_descriptions">
-                <p class="text">Качественный контент</p>
+                <p class="text">Благодаря уникальности своих физических<br>
+                    и технических свойств, оптическое волокно<br>
+                    позиционируется в качестве илеальной<br>
+                    физической среды для транспортировки<br>
+                    информации на большие расстояния.<br>
+                    Преимущества испольщования системы волоконно-оптической связи:</p>
+                        <ul class="text"><li>большая пропускная способность</li>
+                        <li>возможность применения системы на больших расстояниях (от 100 км) без использования дополнительных усилителей</li>
+                        <li>информационная безопасность</li>
+                <li>помехоустойчивость и безопасность/надёжность системы</li></ul>
+                <a class="text transparent_button" href="#">Посмотреть проекты</a>
             </div>
-            <a class="text" id="transparent_button" href="#">Посмотреть проекты</a>
         </div>
         <div class="about">
-            <img src="">
+            <img src="pictures/w_ckc_home/ornament/ornament.png">
+            <div class="about_text">
+                <h2 class="text">О нас</h2>
+                <p class="text">
+                    Мы существуем на рынке более 8 лет. За это время у нас
+                    сформировался коллектив профессионалов. Занимаемся
+                    проектированием, разработкой технической документации, ее
+                    согласованием, проведением строительно-монтажных и
+                    пусконаладочных работ, сдачей надзорным органам. После сдачи
+                    объектов пододдерживаем техническое обслуживание. Нашими
+                    клиентами являются коммерческие, федеральные и
+                    муниципальные объекты строительства.</p>
+                <a class="text transparent_button" href="#">Подробнее</a>
+            </div>
+        </div>
+        <div class="partners">
+            <h2 class="text">Наши партнёры</h2>
+            <div class="logos">
+                <div><img src="pictures/w_ckc_home/logo-1_2.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-2_2.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-3_2.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-4_2.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-5_2.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-6_2.png"></div>
+            </div>
+            <div id="#left_grad"></div>
+            <div id="#right_grad"></div>
+        </div>
+        <div class="news">
+            <h2 class="text">Новости</h2>
+            <div class="news_preview" id="col_1">
+                <span class="text">проекты</span>
+                <div class="title"><a class="text"><br>Система СКС для Sela</a></div>
+            </div>
+            <div class="news_preview" id="col_2">
+                <span class="text">технологии</span>
+                <div class="title"><a class="text">Управление системами через гаджеты</a></div>
+            </div>
+            <div class="news_preview" id="col_3">
+                <span class="text">обзоры</span>
+                <div class="title"><a class="text"><br>Видеонаблюдение: плюсы и минусы</a></div>
+            </div>
+            <a class="text transparent_button" id="news_button" href="#">Больше новостей</a>
+        </div>
+        <div class="clients">
+            <h2 class="text">Наши клиенты</h2>
+            <div id="clients_logos">
+                <div><img src="pictures/w_ckc_home/logo-1.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-2.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-3.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-4.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-5.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-6.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-7.png"></div>
+                <div><img src="pictures/w_ckc_home/logo-8.png"></div>
+            </div>
+        </div>
+        <div class="tell_us">
+            <h2 class="text"><br><br>Расскажите<br>о вашем проекте</h2>
+            <form name="offer">
+                <input class="text top_label" type="text" name="name" pattern="^[A-Za-zА-Яа-яЁё]+$" placeholder="имя">
+                <input class="text top_label" type="email" name="email" pattern="^[a-zA-Z]+$@^[a-zA-Z]+$.[a-zA-Z]+$" placeholder="email">
+                <input class="text top_label" type="tel" name="phone" placeholder="телефон">
+                <textarea class="text" id="description" name="description" placeholder="опишите свой проект"></textarea>
+                <div class="text" id="add">
+                    <input id="add_TZ" type="file" name="add_TZ">Прикрепить ТЗ
+                </div>
+                <input class="text red_button" id="send" type="submit" name="send">
+            </form>
         </div>
     </div>
 
     <footer>
-        <div id="line_bottom"></div>
         <div id="contacts">
             <div class="text footer_text" id="address">
-                <p>192148, Санкт-Петербург<br>
-                    ул. Бабушкина, 42, корп. 2</p>
+                192148, Санкт-Петербург<br>
+                ул. Бабушкина, 42, корп. 2
             </div>
             <div class="text footer_text" id="phone">
-                <span>8 (812) 568-40-96</span>
+                8 (812) 568-40-96
             </div>
         </div>
-        <ul class="nav"><li><a class="text footer_text" href="#">О компании</a></li>
+        <ul class="nav" type="none"><li><a class="text footer_text" href="#">О компании</a></li>
             <li><a class="text footer_text" href="#">Услуги</a></li>
             <li><a class="text footer_text" href="#">Проектирование</a></li>
             <li><a class="text footer_text" href="#">Объекты</a></li>
