@@ -166,11 +166,12 @@
     }
 
     .news h2 {
+        margin-left: 15px;
         font-size: 70px;
     }
 
     .news_preview {
-        width: 27%;
+        width: 26%;
         margin-left: 1.4%;
         margin-right: 1.4%;
     }
@@ -199,4 +200,44 @@
     .title a {
         font-size: 30px;
     }
+
+    #news_button {
+        margin: 0 40%;
+        min-width: 233px;
+    }
+
+    .clients h2 {
+        margin: 0 33% 4.5%;
+        font-size: 50px;
+    }
+
+    #clients_logos {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .tell_us {
+        width: 112%;
+    }
+
+    .tell_us h2 {
+        background: url(/world_ckc/pictures/w_ckc_home/ornament-2.png) no-repeat 100% 80%;
+    }
+
+    .tell_us form {
+        margin-left: 16%;
+        margin-right: -1%;
+        width: 77%;
+    }
+
+    FOOTER {
+        width: 82%;
+        padding-bottom: 5%;
+    }
+
+    #copyright {
+        margin-top: 12.5%
+    }
+
+
 }

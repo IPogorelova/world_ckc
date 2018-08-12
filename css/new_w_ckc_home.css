@@ -645,6 +645,12 @@ FOOTER {
     letter-spacing: 0.5px;
 }
 
+#social {
+    display: inline-block;
+    max-width: 47px;
+    margin: 0 0 0 19%;
+}
+
 #social img {
     margin-bottom: 20px;
 }
