@@ -238,6 +238,272 @@
     #copyright {
         margin-top: 12.5%
     }
+}
 
+@media screen and (min-width: 780px) and (max-width: 1012px) {
+    #logo img {
+        width: 59%;
+    }
 
+    #burger {
+        display: block;
+        position: absolute;
+        top: 6%;
+        right: 4%;
+        max-width: 41px;
+        max-height: 27px;
+        z-index: 2;
+    }
+
+    #burger.open div{
+        background-color: transparent;
+    }
+
+    #burger.open {
+        max-width: 28px;
+        max-height: 28px;
+        background-image: url("/world_ckc/pictures/w_ckc_home/close/close-icon.png");
+
+    }
+
+    .stripe {
+        display: block;
+        width: 41px;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: #d2d2d7;
+    }
+
+    #top {
+        margin-bottom: 9px;
+    }
+
+    #middle {
+        margin-bottom: 9px;
+    }
+
+    nav {
+        display: none
+    }
+
+    nav.open {
+        display: block;
+        text-align: center;
+        margin-top: 31.5%;
+        margin-left: 0;
+        margin-bottom: 50%;
+    }
+
+    nav.open a {
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: 1px;
+    }
+
+    nav.open a:hover {
+        color: #7a7e7c;
+    }
+
+    #container.close {
+        display: none;
+    }
+
+    footer.close {
+        display: none;
+    }
+
+    #container h1 {
+        margin: 11% auto;
+    }
+
+    #map {
+        top: -170px;
+        right: -248px;
+    }
+
+    #map img {
+        width: 95%;
+        height: 95%;
+    }
+
+    #spb_dot {
+        right: 50%;
+    }
+
+    #spb_topleft {
+        right: 59%;
+    }
+
+    #spb_bottomleft {
+        right: 57.5%;
+    }
+
+    #spb_topright {
+        right: 49%;
+    }
+
+    #spb_bottomright {
+        right: 50.5%;
+    }
+
+    #spb_text {
+        right: 41.5%;
+    }
+
+    #moskow_dot {
+        right: 61%;
+    }
+
+    #moscow_text {
+        right: 59.5%;
+    }
+
+    #top_gradient {
+        top: -68px;
+    }
+
+    #bottom_gradient {
+        bottom: -4%;
+    }
+
+    .projects {
+        margin-top: -16%;
+        margin-bottom: 74%;
+        padding-right: 6%;
+        width: 43%;
+    }
+
+    .proj_names {
+        width: 43%;
+        padding-right: 7%;
+    }
+
+    .proj_names h3 {
+        font-size: 25px;
+        padding: 7%;
+    }
+
+    .proj_names h3:hover {
+        font-size: 25px;
+    }
+
+    #proj_bottom_gradient{
+        margin-top: 46.5%;
+    }
+
+    #proj_descriptions {
+        bottom: -48%;
+        width: 40%;
+    }
+
+    .text1440 {
+        display: none;
+    }
+
+    .text1204 {
+        display: block;
+    }
+
+    #proj_descriptions p {
+        font-size: 16px;
+    }
+
+    #proj_descriptions ul {
+        font-size: 16px;
+    }
+
+    #proj_descriptions a {
+        top: 156%;
+    }
+
+    .about img {
+        margin-left: -15%;
+    }
+
+    .about_text {
+        margin-left: 36%;
+    }
+
+    .about_text p {
+        margin-bottom: 8.5%;
+        width: 105%;
+        font-size: 16px;
+    }
+
+    #\#left_grad {
+        top: 290%;
+        right: 75%;
+    }
+
+    #\#right_grad {
+        bottom: -213.5%;
+        left: 596px;
+    }
+
+    .news_preview {
+        width: 42%;
+        height: 280px;
+    }
+
+    .title {
+        width: 73%;
+    }
+
+    #Sela {
+        width: 72%;
+    }
+
+    #col_3 {
+        display: none;
+    }
+
+    #news_button {
+        margin: 0 33%;
+    }
+
+    .clients h2 {
+        margin: 0 28% 5%;
+    }
+
+    #clients_logos {
+        margin-left: -1%;
+        margin-right: -1%;
+    }
+
+    .tell_us h2 {
+        font-size: 50px;
+        background: url(/world_ckc/pictures/w_ckc_home/ornament-2.png) no-repeat 152% 80%;
+        background-size: 65%;
+    }
+
+    #add_TZ {
+        margin-left: -84%;
+    }
+
+    #contacts {
+        margin-right: 8.5%;
+    }
+
+    .nav {
+        margin-bottom: 6%;
+    }
+
+    #copyright {
+        float: left;
+        margin-top: 1%;
+    }
+
+    #social {
+        float: none;
+        display: inline;
+        margin-left: 26%;
+    }
+
+    #social a {
+        margin: 0 10px;
+    }
 }

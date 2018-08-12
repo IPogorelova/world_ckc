@@ -29,6 +29,10 @@ header {
     color: #ffffff;
 }
 
+#burger {
+    display: none;
+}
+
 nav {
     /*position: relative;*/
     margin: 3% -1.5% 2.5% 27%;
