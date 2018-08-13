@@ -5,7 +5,7 @@ BODY {
 }
 
 #wrapper {
-    margin: 0 5%; /* todo: @media margin(1440)=10%, margin(780)=3%, margin(768) = 2%*/
+    margin: 0 5%;
     max-width: 1440px;
 }
 
@@ -34,7 +34,6 @@ header {
 }
 
 nav {
-    /*position: relative;*/
     margin: 3% -1.5% 2.5% 27%;
     padding: 0;
 }
@@ -62,7 +61,7 @@ nav a:hover {
 
 #top_gradient {
     position: relative;
-    top: -101px;                     /* todo: 1440: top=0, right=0*/
+    top: -101px;
     right: -66px;
     width: 110%;
     min-height: 84px;
@@ -181,7 +180,7 @@ nav a:hover {
     right: 54.5%;
 }
 
-#moskow_dot {
+#moscow_dot {
     bottom: 32%;
     right: 69.5%;
 }
@@ -652,7 +651,7 @@ FOOTER {
 #social {
     display: inline-block;
     max-width: 47px;
-    margin: 0 0 0 19%;
+    margin: 0;
 }
 
 #social img {

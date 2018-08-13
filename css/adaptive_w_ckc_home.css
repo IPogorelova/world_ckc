@@ -83,7 +83,7 @@
         right: 52.5%;
     }
 
-    #moskow_dot {
+    #moscow_dot {
         right: 66.5%;
     }
 
@@ -238,9 +238,13 @@
     #copyright {
         margin-top: 12.5%
     }
+
+    #social {
+        margin-left: 19%;
+    }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1012px) {
+@media screen and (min-width: 768px) and (max-width: 785px) {
     #logo img {
         width: 59%;
     }
@@ -354,7 +358,7 @@
         right: 41.5%;
     }
 
-    #moskow_dot {
+    #moscow_dot {
         right: 61%;
     }
 
@@ -367,11 +371,11 @@
     }
 
     #bottom_gradient {
-        bottom: -4%;
+        bottom: -9%;
     }
 
     .projects {
-        margin-top: -16%;
+        margin-top: -14%;
         margin-bottom: 74%;
         padding-right: 6%;
         width: 43%;
@@ -396,7 +400,7 @@
     }
 
     #proj_descriptions {
-        bottom: -48%;
+        bottom: -50%;
         width: 40%;
     }
 
@@ -466,7 +470,7 @@
     }
 
     .clients h2 {
-        margin: 0 28% 5%;
+        margin: 0 27% 5%;
     }
 
     #clients_logos {
@@ -503,7 +507,457 @@
         margin-left: 26%;
     }
 
-    #social a {
-        margin: 0 10px;
+    #social img {
+        margin-right: 20px;
     }
+}
+
+@media screen and (min-width: 320px){
+
+    #wrapper {
+        width: 320px;
+    }
+
+    #container {
+        overflow: visible;
+    }
+
+    #logo img {
+        width: 46%;
+    }
+
+    #burger {
+        display: block;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        max-width: 41px;
+        max-height: 27px;
+        z-index: 2;
+    }
+
+    #burger.open div{
+        background-color: transparent;
+    }
+
+    #burger.open {
+        max-width: 28px;
+        min-height: 28px;
+        background: url("/world_ckc/pictures/w_ckc_home/close/close-icon.png") no-repeat;
+
+    }
+
+    .stripe {
+        display: block;
+        width: 33px;
+        height: 2px;
+        border-radius: 1.5px;
+        background-color: #d2d2d7;
+    }
+
+    #top {
+        margin-bottom: 9px;
+    }
+
+    #middle {
+        margin-bottom: 9px;
+    }
+
+    nav {
+        display: none
+    }
+
+    nav.open {
+        display: block;
+        text-align: center;
+        margin-top: 42.5%;
+        margin-left: 0;
+        margin-bottom: 50%;
+    }
+
+    nav.open a {
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.07;
+        letter-spacing: 0.6px;
+    }
+
+    nav.open a:hover {
+        color: #7a7e7c;
+    }
+
+    #container.close {
+        display: none;
+    }
+
+    footer.close {
+        display: none;
+    }
+
+    #container h1 {
+        margin-top: 14%;
+        font-size: 30px;
+    }
+
+    .red_button {
+        top: 215px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+
+    #top_gradient {
+        top: 200px;
+        right: 10px;
+        width: 110%;
+        background-color: #40424a;
+    }
+
+    #map {
+        margin-right: -5.5%;
+        margin-left: -5.5%;
+        top: 190px;
+        right: 0;
+        width: 111%;
+        max-height: 310px;
+        overflow: hidden;
+    }
+
+    #map img {
+        object-fit: cover;
+        object-position: -28px -50px;
+        width: 150%;
+        height: 150%;
+    }
+
+    .circle::before {
+        width: 29px;
+        height: 29px;
+    }
+
+    #spb_dot {
+        bottom: 78%;
+        right: 30.5%;
+    }
+
+    #spb_topleft {
+        bottom: 87%;
+        right: 47%;
+    }
+
+    #spb_bottomleft {
+        bottom: 79.5%;
+        right: 45%;
+    }
+
+    #spb_topright {
+        bottom: 96%;
+        right: 28%;
+    }
+
+    #spb_bottomright {
+        bottom: 78%;
+        right: 29.5%;
+    }
+
+    #spb_text {
+        right: 10.5%;
+    }
+
+    #moscow_dot {
+        bottom: 18%;
+        right: 45.5%;
+    }
+
+    #moscow_text {
+        bottom: 12%;
+        right: 42.5%;
+    }
+
+    #bottom_gradient {
+        height: 7%;
+        bottom: -59%;
+    }
+
+    .projects {
+        margin-top: 80%;
+    }
+
+    .proj_names {
+        width: 100%;
+        padding-right: 0;
+        border: none;
+    }
+
+    .proj_names h3 {
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: 0.4px;
+    }
+
+    .proj_names h3:hover {
+        width: 85%;
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: 0.4px;
+    }
+
+    #proj_top_gradient {
+        width: 90%;
+    }
+
+    #proj_bottom_gradient {
+        margin-top: 65.5%;
+        width: 90%;
+    }
+
+    #proj_descriptions {
+        display: none;
+    }
+
+    .about {
+        margin-top: 190%;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about_text {
+        margin-left: 0;
+    }
+
+    .about_text h2 {
+        font-size: 30px;
+        line-height: 1.17;
+        letter-spacing: 0.6px;
+    }
+
+    .about_text p {
+        margin-bottom: 12%;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.4px;
+    }
+
+    .about_text a {
+        margin-left: 0;
+    }
+
+    .partners {
+        margin-bottom: 14%;
+    }
+
+    .partners h2 {
+        margin-top: 12%;
+        margin-bottom: 10%;
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: 0.4px;
+    }
+
+    .logos {
+        height: 62px;
+    }
+
+    .logos::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logos div img {
+        height: 60px;
+    }
+
+    #\#left_grad {
+        top: 398%;
+        right: 54%;
+        height: 130px;
+    }
+
+    #\#right_grad {
+        bottom: -332.5%;
+        left: 203px;
+        height: 130px;
+    }
+
+    .news h2 {
+        margin-bottom: 8.5%;
+        font-size: 30px;
+        line-height: 1.17;
+        letter-spacing: 0.6px;
+    }
+
+    .news_preview {
+        margin: 0 3% 7%;
+        padding: 4.5% 8% 10.5% 7.5%;
+        width: 78%;
+        height: 265px;
+    }
+
+    .title {
+        margin-top: 53%;
+    }
+
+    #Sela {
+        width: 80%;
+    }
+
+    #col_3 {
+        display: none;
+    }
+
+    #col_2 {
+        margin-bottom: 12%;
+    }
+
+    #news_button {
+        margin: 0 14%;
+    }
+
+    .clients {
+        margin-top: 20%;
+    }
+
+    .clients h2 {
+        margin: 0 25% 10%;
+        font-size: 20px;
+    }
+
+    #clients_logos {
+        display: inline;
+    }
+
+    #clients_logos div img {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #logo_1 {
+        height: 65px;
+    }
+
+    #logo_2 {
+        height: 65px;
+    }
+
+    #logo_3 {
+        height: 75px;
+    }
+
+    #logo_4 {
+        height: 75px;
+    }
+
+    #logo_5 {
+        height: 65px;
+        width: 114px;
+    }
+
+    #logo_6 {
+        height: 65px;
+        width: 146px;
+    }
+
+    #logo_7 {
+        height: 73px;
+        width: 155px;
+    }
+
+    #logo_8 {
+        height: 73px;
+    }
+
+    .tell_us h2 {
+        margin-top: -12%;
+        font-size: 30px;
+        line-height: 1.1;
+        letter-spacing: 0.6px;
+        background: none;
+    }
+
+    .top_label {
+        display: block;
+        width: 94%;
+    }
+
+    .tell_us input::placeholder {
+        color: #e5e5e5;
+    }
+
+    .tell_us textarea::placeholder {
+        color: #e5e5e5;
+    }
+
+    #add {
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    #add_TZ {
+        margin-left: -189%;
+    }
+
+    .tell_us form input {
+        margin-bottom: 10%;
+    }
+
+    #description {
+        margin-top: 2%;
+    }
+
+    #send {
+        margin-top: 0;
+        margin-right: 29%;
+    }
+
+    FOOTER {
+        margin-top: 24%;
+    }
+
+    #contacts div {
+        margin-left: 6%;
+        margin-right: 6%;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 0.8px;
+        text-align: center;
+    }
+
+    #phone {
+        margin-bottom: 8%;
+    }
+
+    .nav {
+        float: none;
+        margin-bottom: 10%;
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 0.8px;
+        text-align: center;
+    }
+
+    #social {
+        float: none;
+        display: inline;
+        width: 80%;
+        margin-left: 19%;
+    }
+
+    #social img {
+        margin-right: 20px;
+    }
+
+    #copyright {
+        margin: 0;
+        position: absolute;
+        bottom: -40px;
+        left: 60px;
+        text-align: center;
+    }
+
 }
