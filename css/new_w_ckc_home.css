@@ -5,7 +5,8 @@ BODY {
 }
 
 #wrapper {
-    margin: 0 5%;
+    margin: auto;
+    padding-left: 9%;
     max-width: 1440px;
 }
 
